@@ -1,0 +1,134 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: White;
+}
+
+.cd-logo, .parallax, .kitchen-equipment, .cake-ingredients, .mixer, .oven, .rosecake, .pasta, .pasta-ingredients, .prep-pasta, .pasta1{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 50%;
+  background-attachment: fixed;
+  
+}
+.pasta1{
+  background-image: url("pasta.jpeg");
+}
+.prep-pasta{
+  background-image: url("prep-pasta.jpg");
+}
+.pasta{
+  background-image: url("pasta1.jpeg");
+}
+.pasta-ingredients{
+  background-image: url("pasta-ingredients.jpeg");
+}
+.rosecake{
+  background-image: url("rosecake.JPG");
+}
+.oven{
+  background-image: url("oven.JPG");
+}
+.parallax {
+   background-image: url("img_parallax.JPG");
+}
+.cd-logo {
+  background-image: url("CoderDojo.png");
+  min-height: 100%;
+  background-size: auto;
+}
+.kitchen-equipment {
+  background-image: url("utensils.JPG");
+}
+.cake-ingredients {
+  background-image: url("ingredients.jpg");
+}
+.mixer{
+  background-image: url("mixer.jpg");
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+  text-align:center
+}
+
+.textSection {
+  background-color:#642580;
+  padding:50px 80px;
+}
+.textSection1 {
+  background-color:#20B2AA;
+  padding:50px 80px;
+}
+.tSection {
+  background-color:#642580;
+  padding:50px 80px;
+}
+.t1Section {
+  background-color:#642580;
+  padding:50px 80px;
+}
+.caption {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.border {
+  background-color: #41BAC1;
+  color: White;
+  padding: 20px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.thanking {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.pleasure {
+  background-color: #41BAC1;
+  color: White;
+  padding: 20px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.t2Section {
+  background-color:#642580;
+  padding:50px 80px;
+}
+.t2Section1 {
+  background-color:#20B2AA;
+  padding:50px 80px;
+}
+.t3Section {
+  background-color:#642580;
+  padding:50px 80px;
+}
+.t3Section2 {
+  background-color:#20B2AA;
+  padding:50px 80px;
+}
+.t4Section {
+  background-color:#642580;
+  padding:50px 80px;
+}
+.t4Section3 {
+  background-color:#20B2AA;
+  padding:50px 80px;
+}
+
+/* Turn off parallax scrolling for tablets and phones as it is not supported */
+@media only screen and (max-device-width: 1024px) {
+   
+.cd-logo, .parallax, .kitchen-equipment, .cake-ingredients, .mixer, .oven, .rosecake, .pasta, .pasta-ingredients, .prep-pasta, .pasta1 {
+        background-attachment: scroll;
+    }
+}
